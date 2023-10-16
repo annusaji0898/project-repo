@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+   
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.box{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   
+    background-color: rgb(241,242,243);
+
+}
+.full{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    background-color: white;
+    border: rgb(35,38,41) ;
+    width: 306px;
+    height: 236px;
+    padding: 24px;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 0.188em 1.550em rgb(229, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px;
+}
+.email{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 1em;
+    display: block;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"]{
+    padding: 8px;
+    width: 250px;
+    border-radius: 6px;
+    border:2px solid rgb(164, 167, 170);
+    margin-top: 4px;
+ }
+.pass{
+    font-weight: bold;
+    font-size: 15px;
+    float:left;
+    text-align: left;
+}
+.password-label-container{
+    display: flex;
+    justify-content: space-between;
+}
+.forget{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    background-color: 1px solid rgb(0, 116,204 );
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: rgb(10, 105, 136);
+    display: block;
+    font-feature-settings: auto;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.5px;
+}
+
+.button1{
+    padding: 11.4px;
+    margin-bottom: 5px;
+    background-color: rgb(10, 149, 255);
+    width: 250px;
+    border-radius: 0.5em;
+    line-height: 15px;
+    color: white;
+    border-bottom-color: rgb(0,0,0);
+    border: rgb(10, 149, 255);
+    font-weight: 400;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    vertical-align: baseline;
+    text-align: center;
+    position: relative;
+}
+
+.facebook {
+    background-color: #3B5998;
+    color: rgb(248, 237, 237);
+  
+   
+    }
+  
+  .github {
+    background-color:black;
+    color: white;
+  
+   
+
+    }
+  
+  .google {
+    background-color:rgb(255,255,255);
+    color: black;
+   
+    
+  }
+
+  .col{
+      display: flex;
+      flex-direction: column;
+  }
+    
+ 
+  .social{
+      margin-bottom: 16px;
+      margin-top: -4px;
+      height: 137px;
+      border-radius: 6px;
+      font-size: 15px;
+      transition: 0.2s;
+      text-align: center;
+      font-weight: 400;
+      height: 37.4px;
+      text-decoration-style: solid ;
+      text-decoration-color: rgb(255,255,255);
+      padding: 10.4px;
+      border:rgb(214,217,220);
+      flex-grow: 1;
+      flex-shrink: 1;
+      font-weight: 400;
+      line-height: 17px;
+      max-width:316px ;
+      vertical-align: baseline;
+  }
+  .button_icon{
+      font-size: 20px;
+  }
+ .icon{
+     padding: 20px;
+     margin:10px;
+     justify-content: center;
+     align-items: center;
+     width: 300px;
+     height: auto;
+     margin-bottom: 24px;
+     height: 37px;
+     width: 10%;
+     vertical-align: baseline;
+     text-align: center;
+     line-height: 27.4px;
+     cursor: pointer;
+     display: inline;
+     max-width: 100%;
+
+     }
+.signup_link{
+    display: flex;
+    width: 306.5px;
+    line-height: 17px;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    color:rgb(35,38,41);
+    gap: 11px;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.signup_link a{
+    color: rgb(0, 116,204 );
+    text-decoration: none;
+}
+
+.signup_link a:hover{
+    color: rgb(10, 149, 255);
+}
+
+.error-text{
+    font-size: small;
+    color: red;
+}
